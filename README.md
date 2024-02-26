@@ -30,3 +30,6 @@ Potential biases and limitations: Like other large language models, GPT-NeoX may
 
 To learn more about the gpt-neox20b model follow the link to access it's research paper.
 https://arxiv.org/abs/2204.06745
+
+# How to run
+Download the "app.py" file in your local system and run it using any python IDE. Once the file executes, open the terminal and run "streamlit run app.py".
