@@ -1,0 +1,11 @@
+sentence-transformers
+uvicorn
+ctransformers
+ipykernel
+langchain 
+python-box
+streamlit
+langchain
+openai
+huggingface_hub
+
