@@ -7,9 +7,9 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = #paste your actual hugging face token h
 
 
 ## Function To get response from LLAma 2 model
-def getLLamaresponse(input_text, no_words):
+def getresponse(input_text, no_words):
 
-    # LLama2 model (removed unnecessary parameter)
+    # GPT-neox20b model (removed unnecessary parameter)
     llm = HuggingFaceHub(repo_id='EleutherAI/gpt-neox-20b')
 
     ## Prompt Template
@@ -21,7 +21,7 @@ def getLLamaresponse(input_text, no_words):
     prompt = PromptTemplate(input_variables=["input_text", 'no_words'],
                            template=template)
 
-    # Generate the response from the LLama 2 model
+    # Generate the response from the GPT-neox20b model
     response = llm(prompt.format(input_text=input_text, no_words=no_words))
     print(response)
     return response
