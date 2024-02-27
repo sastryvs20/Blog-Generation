@@ -48,4 +48,4 @@ submit = st.button("Generate")
 
 ## Final response
 if submit:
-    st.write(getLLamaresponse(input_text, no_words))
+    st.write(getresponse(input_text, no_words))
