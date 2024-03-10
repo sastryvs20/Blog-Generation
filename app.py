@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 from langchain.llms import CTransformers, HuggingFaceHub
 import os
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = #paste your actual hugging face token here 
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = ## paste your actual hugging face token here 
 
 
 ## Function To get response from LLAma 2 model
